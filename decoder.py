@@ -1,0 +1,2 @@
+def Decoder(code):
+    pass
