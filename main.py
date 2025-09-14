@@ -1,3 +1,5 @@
+from coder import Coder
+
 print('For coding, enter 1')
 print('For decoding, enter 2')
 
@@ -7,7 +9,9 @@ if user_input != '1' and user_input != '2':
     exit()
 
 if user_input == '1':
-    pass
+    text = input('Enter your text:')
+    output = Coder(text)
+    print(output)
 
 elif user_input == '2':
     pass
