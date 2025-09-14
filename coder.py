@@ -16,4 +16,17 @@ def Coder(text):
 
 
 def coder_number(number):
-    return number
+    output = number
+    output = output * output
+    output = output *  7
+    output = output - 34
+    output = output *3
+    output = output -3
+    output = output + 6
+    output = output  * 6
+    output = output  / 300
+    output = output  / 1532
+    output = output  - 1532
+    output = output *2
+    output = output  /5324
+    return output
