@@ -1,4 +1,5 @@
 from coder import Coder
+from decoder import Decoder
 
 print('For coding, enter 1')
 print('For decoding, enter 2')
@@ -14,7 +15,9 @@ if user_input == '1':
     print(output)
 
 elif user_input == '2':
-    pass
+    code = input('Enter your code:')
+    output = Decoder(code)
+    print(output)
 
 
 
